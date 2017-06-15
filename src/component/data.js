@@ -27,14 +27,14 @@ var projects = {
 		{
 			"title" : "Block Breaker Game",
 			"dates" : "Year 2 Semester 1",
-            "url" : "https://github.com/",
+            "url" : "https://github.com/pangpond510/test-react",
 			"description" : "ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project",
 			"images" : [projpic1, projpic1]
 		},
         {
 			"title" : "Block Breaker Game",
 			"dates" : "Year 2 Semester 1",
-            "url" : "https://github.com/",
+            "url" : "https://github.com/pangpond510/test-react",
 			"description" : "ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project ProgMeth project",
 			"images" : [projpic1, projpic1]
 		}
