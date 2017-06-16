@@ -26,6 +26,13 @@
   padding: 10px;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+
 .welcome-message {
   font-style: italic;
   font-size: 18px;
