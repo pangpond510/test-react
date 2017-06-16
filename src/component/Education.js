@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Data from './data'
 import EduEntry from './EduEntry'
+import './css-component/Education.css'
 
 class Education extends Component {
   render() {
