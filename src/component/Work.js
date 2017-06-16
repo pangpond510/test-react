@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Data from './data'
 import WorkEntry from './WorkEntry'
+import './css-component/Work.css'
 
 class Work extends Component {
   render() {
