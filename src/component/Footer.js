@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Data from './data'
+import './css-component/Footer.css'
 
 class Footer extends Component {
   render() {
@@ -7,7 +8,7 @@ class Footer extends Component {
 
     return ( 
       <div id="lets-connect" className="dark-gray">
-        <h2 className="orange center-text">Let's Connect</h2>
+        <h2 className="orange">Let's Connect</h2>
         <ul id="footerContacts" className="flex-box">
         {
           Object.keys(contacts).map((keyName) => {
