@@ -12,7 +12,7 @@ class EduEntry extends Component {
         <div className="location-text">{school.location}</div>
         {
           school.majors.map((major, index) => {
-            return (<em key="index" ><br />Major: {major}</em>);
+            return (<em key={index} ><br />Major: {major}</em>);
           })
         }
         
