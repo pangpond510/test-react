@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types'; 
-import TopContact from './TopContact';
-import Skill from './Skill';
+import TopContact from './header-component/TopContact';
+import Skill from './header-component/Skill';
 
 const Header = ({name, role, contacts, biopic, welcomeMsg, skills}) => (
   <div id="header" className="center-content clear-fix">

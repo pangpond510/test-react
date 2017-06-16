@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types'; 
-import ProjEntry from './ProjEntry';
+import ProjEntry from './proj-component/ProjEntry';
 
 const Project = ({projects}) => (
   <div id="projects">

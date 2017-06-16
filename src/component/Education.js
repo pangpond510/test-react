@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types'; 
-import EduEntry from './EduEntry';
+import EduEntry from './edu-component/EduEntry';
 
 const Education = ({schools}) => (
   <div id="education" className="gray">
