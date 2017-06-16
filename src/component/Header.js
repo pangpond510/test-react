@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Data from './data'
 import TopContact from './TopContact'
 import Skill from './Skill'
+import './css-component/Header.css';
 
 class Header extends Component {
   render() {

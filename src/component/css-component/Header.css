@@ -1,0 +1,60 @@
+#header {
+  background-color: #484848;
+}
+
+.clear-fix {
+  overflow: auto;
+}
+
+.center-content {
+  padding: 2.5% 5%;
+}
+
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  display: none;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 18px;
+  color: #f3f3f3;
+  line-height: 28px;
+}
+
+#skills-h3 {
+  color: #f5ae23;
+}
+
+@media only screen and (max-width: 750px) {
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  #skills-h3,
+  .biopic {
+    display: block;
+  }
+}
