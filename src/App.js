@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from './component/Header';
 import Work from './component/Work';
 import Project from './component/Project';
@@ -7,23 +7,14 @@ import Footer from './component/Footer';
 import Data from './data'
 import './App.css';
 
-class App extends Component {
-  render() {
-    const bio = Data.bio;
-    const work = Data.work;
-    const edu = Data.education;
-    const proj = Data.projects;
-
-    return (
-      <div>
-        <Header bio={bio} />
-        <Work work={work} />
-        <Project  projects={proj} />
-        <Education education={edu} />
-        <Footer contacts={bio.contacts} />
-      </div>
-    );
-  }
-}
+const App = (props) => (
+  <div>
+    <Header name={Data.bio.name} role={Data.bio.role} contacts={Data.bio.contacts} biopic={Data.bio.biopic} welcomeMsg={Data.bio.welcomeMessage} skills={Data.bio.skills} />
+    <Work jobs={Data.work.jobs} />
+    <Project  projects={Data.projects.projects} />
+    <Education schools={Data.education.schools} />
+    <Footer contacts={Data.bio.contacts} />
+  </div>
+);
 
 export default App;

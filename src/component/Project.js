@@ -1,26 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types'; 
 import ProjEntry from './ProjEntry';
 
-class Project extends Component {
-  render() {
-    const projects = this.props.projects.projects;
-
-    return (
-      <div id="projects">
-        <h2>Projects</h2>
-        {
-          projects.map((project, index) => {
-            return (<ProjEntry project={project} key={index} />);
-          })
-        }
-      </div>
-    );
-  }
-}
+const Project = ({projects}) => (
+  <div id="projects">
+    <h2>Projects</h2>
+    {
+      projects.map((project, index) => {
+        return (<ProjEntry project={project} key={index} />);
+      })
+    }
+  </div>
+);
 
 Project.propTypes = {
-  projects: PropTypes.object.isRequired,
+  projects: PropTypes.array.isRequired,
 }
 
 export default Project;

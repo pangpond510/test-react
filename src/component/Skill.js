@@ -1,25 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-class Skill extends Component {
-  render() {
-    const skills = this.props.skills;
-
-    return (
-      <ul id="skills" className="flex-column">
-        {
-          skills.map((skill) => {
-            return (
-              <li className="flex-item" key={skill}>
-                <span className="white-text">{skill}</span>
-              </li>
-            );
-          })
-        }
-      </ul>
-    );
-  }
-}
+const Skill = ({skills}) => (
+  <ul id="skills" className="flex-column">
+    {
+      skills.map((skill) => {
+        return (
+          <li className="flex-item" key={skill}>
+            <span className="white-text">{skill}</span>
+          </li>
+        );
+      })
+    }
+  </ul>
+);
 
 Skill.propsType = {
   skills: PropTypes.array.isRequired,
