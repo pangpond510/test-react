@@ -11,8 +11,8 @@ class EduEntry extends Component {
         <div className="date-text">{school.dates}</div>
         <div className="location-text">{school.location}</div>
         {
-          school.majors.map((major) => {
-            return (<em key="major" ><br />Major: {major}</em>);
+          school.majors.map((major, index) => {
+            return (<em key="index" ><br />Major: {major}</em>);
           })
         }
         

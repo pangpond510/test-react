@@ -11,8 +11,8 @@ class ProjEntry extends Component {
         <div className="date-text">{project.dates}</div>
         <p><br />{project.description}</p>
         {
-          project.images.map((image) => {
-              return (<img className="project-img" src={image} alt="Project images" />);
+          project.images.map((image, index) => {
+              return (<img className="project-img" src={image} alt="Project images" key={index} />);
           })
         }
         
