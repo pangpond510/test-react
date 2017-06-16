@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class WorkEntry extends Component {
   render() {
-    var job = this.props.job;
+    const job = this.props.job;
 
     return (
       <div className="work-entry">

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class TopContact extends Component {
   render() {
-    var contacts = this.props.contacts;
+    const contacts = this.props.contacts;
     
     return (
       <ul id="topContacts" className="flex-box">
@@ -25,6 +25,5 @@ class TopContact extends Component {
 TopContact.propsType = {
   contacts: PropTypes.object.isRequired,
 }
-
 
 export default TopContact;

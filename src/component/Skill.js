@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class Skill extends Component {
   render() {
-    var skills = this.props.skills;
+    const skills = this.props.skills;
 
     return (
       <ul id="skills" className="flex-column">

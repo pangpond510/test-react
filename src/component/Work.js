@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Data from './data'
-import WorkEntry from './WorkEntry'
+import PropTypes from 'prop-types'; 
+import WorkEntry from './WorkEntry';
 
 class Work extends Component {
   render() {
-    var jobs = Data.work.jobs;
+    const jobs = this.props.work.jobs;
 
     return (
       <div id="workExperience" className="gray">
@@ -17,6 +17,10 @@ class Work extends Component {
       </div>
     );
   }
+}
+
+Work.propTypes = {
+  work: PropTypes.object.isRequired,
 }
 
 export default Work;

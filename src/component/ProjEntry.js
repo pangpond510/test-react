@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class ProjEntry extends Component {
   render() {
-    var project = this.props.project;
+    const project = this.props.project;
 
     return (
       <div className="project-entry">

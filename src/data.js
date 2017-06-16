@@ -1,6 +1,20 @@
-import biopic from '../images/fry.jpg';
-import projpic1 from '../images/197x148.gif';
+import biopic from './images/fry.jpg';
+import projpic1 from './images/197x148.gif';
  
+var bio = {
+	"name" : "Norawit Hempornwisarn",
+	"role" : "Trainee",
+	"welcomeMessage" : "Hello wolrd!",
+	"biopic" : biopic,
+	"contacts" : {
+		"email" : "pangpond.32552@gmail.com",
+		"mobile" : "0970255131",
+		"github" : "pangpond510",
+		"location" : "20/45, Bang Ramat, Taling Chan, Bangkok, 10170, Thailand"
+	},
+	"skills" : ["Programming", "Sport", "Music"]
+};
+
 var work = {
 	"jobs" : [
 		{
@@ -39,20 +53,6 @@ var projects = {
 			"images" : [projpic1, projpic1]
 		}
 	]
-};
-
-var bio = {
-	"name" : "Norawit Hempornwisarn",
-	"role" : "Trainee",
-	"welcomeMessage" : "Hello wolrd!",
-	"biopic" : biopic,
-	"contacts" : {
-		"email" : "pangpond.32552@gmail.com",
-		"mobile" : "0970255131",
-		"github" : "pangpond510",
-		"location" : "20/45, Bang Ramat, Taling Chan, Bangkok, 10170, Thailand"
-	},
-	"skills" : ["Programming", "Sport", "Music"]
 };
 
 var education = {

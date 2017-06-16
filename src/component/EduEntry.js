@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class EduEntry extends Component {
   render() {
-    var school = this.props.school;
+    const school = this.props.school;
 
     return (
       <div className="education-entry">

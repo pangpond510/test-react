@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Data from './data'
+import PropTypes from 'prop-types'; 
 
 class Footer extends Component {
   render() {
-    var contacts = Data.bio.contacts;
+    const contacts = this.props.contacts;
 
     return ( 
       <div id="lets-connect" className="dark-gray">
@@ -23,6 +23,10 @@ class Footer extends Component {
       </div>
     );
   }
+}
+
+Footer.propTypes = {
+  contacts: PropTypes.object.isRequired,
 }
 
 export default Footer;

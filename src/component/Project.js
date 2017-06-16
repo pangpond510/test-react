@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Data from './data'
+import PropTypes from 'prop-types'; 
 import ProjEntry from './ProjEntry';
 
 class Project extends Component {
   render() {
-    var projects = Data.projects.projects;
+    const projects = this.props.projects.projects;
 
     return (
       <div id="projects">
@@ -17,6 +17,10 @@ class Project extends Component {
       </div>
     );
   }
+}
+
+Project.propTypes = {
+  projects: PropTypes.object.isRequired,
 }
 
 export default Project;
