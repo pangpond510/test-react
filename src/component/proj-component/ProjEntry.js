@@ -7,9 +7,7 @@ const ProjEntry =({project}) => (
     <div className="date-text">{project.dates}</div>
     <p><br />{project.description}</p>
     {
-      project.images.map((image, index) => {
-        return (<img className="project-img" src={image} alt="Project images" key={index} />);
-      })
+      project.images.map((image, index) => (<img className="project-img" src={image} alt="Project images" key={index} />))
     }  
   </div>
 );

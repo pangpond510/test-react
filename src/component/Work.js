@@ -6,9 +6,7 @@ const Work = ({jobs}) => (
   <div id="workExperience" className="gray">
     <h2>Work Experience</h2>
     {
-      jobs.map((job, index) => {
-        return (<WorkEntry job={job} key={index} />);
-      })
+      jobs.map((job, index) => (<WorkEntry job={job} key={index} />))
     }
   </div>
 );

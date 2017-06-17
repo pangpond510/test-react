@@ -6,9 +6,7 @@ const Education = ({schools}) => (
   <div id="education" className="gray">
     <h2>Education</h2>
     {
-      schools.map((school, index) => {
-        return (<EduEntry school={school} key={index} />);
-      })
+      schools.map((school, index) => (<EduEntry school={school} key={index} />))
     }
   </div>
 );

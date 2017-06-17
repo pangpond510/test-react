@@ -6,9 +6,7 @@ const Project = ({projects}) => (
   <div id="projects">
     <h2>Projects</h2>
     {
-      projects.map((project, index) => {
-        return (<ProjEntry project={project} key={index} />);
-      })
+      projects.map((project, index) => (<ProjEntry project={project} key={index} />))
     }
   </div>
 );

@@ -7,9 +7,7 @@ const EduEntry = ({school}) => (
     <div className="date-text">{school.dates}</div>
     <div className="location-text">{school.location}</div>
     {
-      school.majors.map((major) => {
-        return (<em key="major" ><br />Major: {major}</em>);
-      })
+      school.majors.map((major) => (<em key="major" ><br />Major: {major}</em>))
     }        
   </div>
 );
