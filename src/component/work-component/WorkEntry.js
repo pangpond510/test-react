@@ -11,7 +11,14 @@ const WorkEntry = ({job}) => (
 );
 
 WorkEntry.propsType = {
-  job: PropTypes.object.isRequired,
+  job: PropTypes.shape({
+    url: PropTypes.string,
+    employer: PropTypes.string,
+    title: PropTypes.string,
+    dates: PropTypes.string,
+    location: PropTypes.string,
+    description: PropTypes.string,
+  }).isRequired,
 }
 
 export default WorkEntry;

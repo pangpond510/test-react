@@ -13,7 +13,14 @@ const EduEntry = ({school}) => (
 );
 
 EduEntry.propsType = {
-  school: PropTypes.object.isRequired,
+  school: PropTypes.shape({
+    url: PropTypes.string,
+    name: PropTypes.string,
+    degree: PropTypes.string,
+    dates: PropTypes.string,
+    location: PropTypes.string,
+    majors: PropTypes.array,
+  }).isRequired,
 }
 
 export default EduEntry;

@@ -13,7 +13,13 @@ const ProjEntry =({project}) => (
 );
 
 ProjEntry.propsType = {
-  project: PropTypes.object.isRequired,
+  project: PropTypes.shape({
+    url: PropTypes.string,
+    title: PropTypes.string,
+    dates: PropTypes.string,
+    description: PropTypes.string,
+    images: PropTypes.array,
+  }).isRequired,
 }
 
 export default ProjEntry;
