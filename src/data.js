@@ -1,7 +1,7 @@
 import biopic from './images/fry.jpg';
 import projpic1 from './images/197x148.gif';
  
-var bio = {
+const bio = {
 	"name" : "Norawit Hempornwisarn",
 	"role" : "Trainee",
 	"welcomeMessage" : "Hello wolrd!",
@@ -15,7 +15,7 @@ var bio = {
 	"skills" : ["Programming", "Sport", "Music"]
 };
 
-var work = {
+const work = {
 	"jobs" : [
 		{
 			"employer" : "Skooldio",
@@ -36,7 +36,7 @@ var work = {
 	]
 };
 
-var projects = {
+const projects = {
 	"projects" : [
 		{
 			"title" : "Block Breaker Game",
@@ -55,7 +55,7 @@ var projects = {
 	]
 };
 
-var education = {
+const education = {
 	"schools" : [
 		{
 			"name" : "Suankularb Wittayalai School",
