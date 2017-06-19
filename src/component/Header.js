@@ -20,7 +20,7 @@ class Header extends Component {
         <TopContact contacts={contacts} />
         <img src={biopic} alt="myPic" className="biopic" />
         <span className="welcome-message">{welcomeMessage}</span>
-        <h3 id="skills-h3">Skills at a Glance:</h3>
+        <h3 id="skills-header">Skills at a Glance:</h3>
         <Skill skills={skills} />
       </div>
     );
