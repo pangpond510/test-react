@@ -14,7 +14,7 @@ const Skill = ({skills}) => (
 );
 
 Skill.propsType = {
-  skills: PropTypes.array.isRequired,
+  skills: PropTypes.arrayOf(PropTypes.string).isRequired,
 }
 
 export default Skill;

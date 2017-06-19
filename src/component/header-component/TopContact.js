@@ -15,7 +15,7 @@ const TopContact = ({contacts}) => (
 );
 
 TopContact.propsType = {
-  contacts: PropTypes.object.isRequired,
+  contacts: PropTypes.objectOf(PropTypes.string).isRequired,
 }
 
 export default TopContact;
