@@ -8,7 +8,7 @@ class Work extends Component {
     var jobs = Data.work.jobs;
 
     return (
-      <div id="workExperience" className="gray">
+      <div id="workExperience" className="gray-background">
         <h2>Work Experience</h2>
         {
           jobs.map((job, index) => {

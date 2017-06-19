@@ -8,7 +8,7 @@ class Education extends Component {
     var schools = Data.education.schools;
 
     return (
-      <div id="education" className="gray">
+      <div id="education" className="gray-background">
         <h2>Education</h2>
         {
           schools.map((school, index) => {

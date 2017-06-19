@@ -7,8 +7,8 @@ class Footer extends Component {
     var contacts = Data.bio.contacts;
 
     return ( 
-      <div id="lets-connect" className="dark-gray">
-        <h2 className="orange">Let's Connect</h2>
+      <div id="lets-connect" className="dark-gray-background">
+        <h2 className="orange-background">Let's Connect</h2>
         <ul id="footerContacts" className="flex-box">
         {
           Object.keys(contacts).map((keyName) => {
