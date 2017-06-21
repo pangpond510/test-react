@@ -1,0 +1,24 @@
+#lets-connect {
+  text-align: center;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+  #lets-connect {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #lets-connect {
+    margin-top: 5%;
+  }
+}

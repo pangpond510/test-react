@@ -1,0 +1,21 @@
+.project-entry {
+  padding: 0 5%;
+}
+
+.proj-date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+}
+
+.project-img{
+  width: 250px;
+}
+
+a {
+  color: #1199c3;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
