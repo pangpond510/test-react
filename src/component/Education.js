@@ -1,22 +1,18 @@
-import React, { Component } from 'react';
-import Data from './data'
-import EduEntry from './EduEntry'
+import React from 'react';
+import PropTypes from 'prop-types'; 
+import EduEntry from './edu-component/EduEntry';
 
-class Education extends Component {
-  render() {
-    var schools = Data.education.schools;
+const Education = ({schools}) => (
+  <div id="education" className="gray">
+    <h2>Education</h2>
+    {
+      schools.map((school, index) => (<EduEntry school={school} key={index} />))
+    }
+  </div>
+);
 
-    return (
-      <div id="education" className="gray">
-        <h2>Education</h2>
-        {
-          schools.map((school, index) => {
-            return (<EduEntry school={school} key={index} />);
-          })
-        }
-      </div>
-    );
-  }
+Education.propTypes = {
+  schools: PropTypes.array.isRequired,
 }
 
 export default Education;

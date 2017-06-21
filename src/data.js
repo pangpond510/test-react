@@ -1,7 +1,21 @@
-import biopic from '../images/fry.jpg';
-import projpic1 from '../images/197x148.gif';
+import biopic from './images/fry.jpg';
+import projpic1 from './images/197x148.gif';
  
-var work = {
+const bio = {
+	"name" : "Norawit Hempornwisarn",
+	"role" : "Trainee",
+	"welcomeMessage" : "Hello wolrd!",
+	"biopic" : biopic,
+	"contacts" : {
+		"email" : "pangpond.32552@gmail.com",
+		"mobile" : "0970255131",
+		"github" : "pangpond510",
+		"location" : "20/45, Bang Ramat, Taling Chan, Bangkok, 10170, Thailand"
+	},
+	"skills" : ["Programming", "Sport", "Music"]
+};
+
+const work = {
 	"jobs" : [
 		{
 			"employer" : "Skooldio",
@@ -22,7 +36,7 @@ var work = {
 	]
 };
 
-var projects = {
+const projects = {
 	"projects" : [
 		{
 			"title" : "Block Breaker Game",
@@ -41,21 +55,7 @@ var projects = {
 	]
 };
 
-var bio = {
-	"name" : "Norawit Hempornwisarn",
-	"role" : "Trainee",
-	"welcomeMessage" : "Hello wolrd!",
-	"biopic" : biopic,
-	"contacts" : {
-		"email" : "pangpond.32552@gmail.com",
-		"mobile" : "0970255131",
-		"github" : "pangpond510",
-		"location" : "20/45, Bang Ramat, Taling Chan, Bangkok, 10170, Thailand"
-	},
-	"skills" : ["Programming", "Sport", "Music"]
-};
-
-var education = {
+const education = {
 	"schools" : [
 		{
 			"name" : "Suankularb Wittayalai School",

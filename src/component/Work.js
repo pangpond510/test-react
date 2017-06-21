@@ -1,22 +1,18 @@
-import React, { Component } from 'react';
-import Data from './data'
-import WorkEntry from './WorkEntry'
+import React from 'react';
+import PropTypes from 'prop-types'; 
+import WorkEntry from './work-component/WorkEntry';
 
-class Work extends Component {
-  render() {
-    var jobs = Data.work.jobs;
+const Work = ({jobs}) => (
+  <div id="workExperience" className="gray">
+    <h2>Work Experience</h2>
+    {
+      jobs.map((job, index) => (<WorkEntry job={job} key={index} />))
+    }
+  </div>
+);
 
-    return (
-      <div id="workExperience" className="gray">
-        <h2>Work Experience</h2>
-        {
-          jobs.map((job, index) => {
-            return (<WorkEntry job={job} key={index} />);
-          })
-        }
-      </div>
-    );
-  }
+Work.propTypes = {
+  jobs: PropTypes.array.isRequired,
 }
 
 export default Work;
