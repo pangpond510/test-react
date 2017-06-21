@@ -4,7 +4,7 @@ import EduEntry from "./edu-component/EduEntry";
 import "./css-component/Education.css";
 
 const Education = ({ schools }) =>
-  <div id="education" className="gray">
+  <div id="education" className="gray-background">
     <h2>Education</h2>
     {schools.map((school, index) => <EduEntry school={school} key={index} />)}
   </div>;
